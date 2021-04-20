@@ -43,9 +43,9 @@ export default function App() {
       }}
     >
       <div className="App">
-        <CounterOne name={"counter1"} />
+        <CounterOne />
         <div className={"spacer"}></div>
-        <CounterTwo name={"counter2"} />
+        <CounterTwo />
       </div>
     </AppContext.Provider>
   );
